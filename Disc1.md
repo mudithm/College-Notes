@@ -1,0 +1,73 @@
+<h1>Discussion 1</h1>
+
+Info:
+>Thursday 8:30 to 11:30 AM (also on the class website)
+
+---
+
+<h3>Debugger</h3>
+
+Why?
+<ul><li>Everybody makes mistakes when coding.</li></ul>
+
+What can it do?
+<ul><li>It runs step by step to check for errors</li><li>You can check variable values at any step in the program</li><li>See the call stack (which function you are currently in)</li><li>It also has more advanced features</li></ul>
+
+----
+
+**Examples:**
+<ul><li>Quadratic Equation Solver</li></ul>
+
+----
+
+**Visual Studio Instructions:**
+>Start Debugging: F5
+><ul><li>Pauses at breakpoints</li><li>Console window disappears as soon as the program finishes</li></ul>
+>
+>Start Without Debugging: Ctrl + F5
+><ul><li>Run to the end without stopping</li></ul>
+>
+>More about Break points:
+
+><ul><li>Pause the program to examine variables and stacks</li><li>set at least one before you start running the debugger</li><li>You can set more as you run the debugger over time</li></ul>
+----
+
+    #include <iostream>
+
+    int myFunction(){
+
+
+
+    }
+
+    int main() {
+
+        int a = myFunction();  //add a breakpoint here to check the values BEFORE the line begins
+    }
+
+---
+
+Instructions for debugging:
+
+>F5: continue to the next breakpoint
+>F10 (step over): Execute a line of code (if this line calls a function, it will execute, but its values will not be shown)
+>F11 (step in): Execute a line of code (if th ilne of code calls a finction, it will go in that function and pause at the beginning of that function.)
+
+>Shift > F11: step out
+
+You can examine variable values by hovering over them during a pause.
+
+---
+
+Tips: Don't put too much code into a single function: this makes it _very_ difficult to debug.
+
+If you feel that a function is getting too long, split it up into smaller functions.
+
+Also,
+
+>>_Google is your friend._
+
+
+----
+
+Why do they say that my name is jeff and that I am a memer because I am a memer and my memes are the memeiest memers of all of the memers.
