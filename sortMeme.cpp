@@ -6,15 +6,20 @@ void sort(int arr[], int size);
 
 int main(){
 
-   int arr[] = {
-        1, 5, 4, 3, 2, 6, 4, 3, 2, 4
-   }; 
+   int size;
 
-   int size = 10;
-
+   cout << "Enter the size of the array:  ";
+   cin >> size;
+   
+   int arr[size];
+   for (int i = 0; i < size; i++){
+       cout << "Element " << i+1 << ": ";
+       cin >> arr[i];
+   }
+   cout << endl;
    sort(arr, size);
 
-   for (int i = 0; i < 10; i++)
+   for (int i = 0; i < size; i++)
        cout << arr[i] << " ";
 
    cout << endl;
