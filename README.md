@@ -1,8 +1,1 @@
-
-
-Notes for some of my college classes.
-
-
-Use at your own risk
-
-
+Notes for CS152B, the Verilog design lab
