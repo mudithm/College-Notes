@@ -1,1 +1,1 @@
-Notes for CS152B, the Verilog design lab
+Notes for ENGR 181EW
